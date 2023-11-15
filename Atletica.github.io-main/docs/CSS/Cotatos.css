@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/docs/Imagens/matrix33.gif);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+header {
+    padding-inline: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 890px;
+    background-color: black;
+    box-shadow: 1px -7px 25px 8px #19FF00;
+}
+
+
+.navbar img {
+    width: 80px;
+}
+
+.container {
+    max-width: 800px;
+    background: #00FF0A;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.contact-info {
+    flex: 1;
+    background-image: url(/docs/Imagens/homem-sentado.jpg);
+    color: white;
+    text-align: center;
+    padding-top: 13rem;
+}
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.contact-info p {
+    font-size: 18px;
+}
+
+.contact-info img {
+    width: 40px;
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 25px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: black;
+}
